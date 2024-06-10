@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/luis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/Python_course/.env/bin/python3.12" "$0" "$@"
-' '''
+#!/Users/luiscaceres/Documents/GitHub/Python_course/.env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
