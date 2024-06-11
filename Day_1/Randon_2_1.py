@@ -1,12 +1,13 @@
-# Define the rows of the map using lists with emojis
-line1 = ["⬜️", "⬜️", "⬜️"]
-line2 = ["⬜️", "⬜️", "⬜️"]
-line3 = ["⬜️", "⬜️", "⬜️"]
+# Define the number of columns and rows
+columns = 3
+rows = 3
 
-# Group the rows into a list representing the map
-map = [line1, line2, line3]
+# Generate the map dynamically based on the number of columns and rows
+map = [["🚨" for _ in range(columns)] for _ in range(rows)]
 
 print("Hiding your treasure! X marks the spot.")
+for line in map:
+    print(" ".join(line))
 
 # Prompt the user to enter the position where they want to put the 'X'
 position = input("Enter your coordinates (e.g., B2): ")  # Example input: "B2"
@@ -30,5 +31,5 @@ map[row][column_index] = "X"
 # 🚨 Don't change the code below 👇
 
 # Print each line of the map to display the result
-print(f"{line1}\n{line2}\n{line3}")
-
+for line in map:
+    print(" ".join(line))
