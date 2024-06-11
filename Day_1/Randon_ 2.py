@@ -1,3 +1,6 @@
+colums = 3
+rows = 3
+
 # Define the rows of the map using lists with emojis
 line1 = ["⬜️", "⬜️", "⬜️"]
 line2 = ["⬜️", "⬜️", "⬜️"]
@@ -29,6 +32,6 @@ map[row][column_index] = "X"
 
 # 🚨 Don't change the code below 👇
 
-# Print each line of the map to display the result
+# Print each line of the map to displb1bay the result
 print(f"{line1}\n{line2}\n{line3}")
 
